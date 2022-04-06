@@ -3,3 +3,25 @@
     color: skyblue;
 }
 
+.choices {
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+    color: black;
+    padding: 5px;
+    border-right: 175px solid black;
+    border-left: 175px solid black;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+
+.choices:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
