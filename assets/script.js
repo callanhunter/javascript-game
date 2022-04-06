@@ -1,17 +1,14 @@
 var startButton = document.getElementById("start-button");
 var nextButton = document.getElementById("next-button");
+var choices = document.getElementsByClassName("choices");
 var currentQuestion = {};
 var score = 0;
 var questionCount = 0;
 var maxQuestions = 4;
 var maxScore = 0;
 var questionsLeft = 0;
-// var number = document.getElementById("message");
 
-// creating start button that will bring up the next button
 startButton.addEventListener("click", startGame);
-    // document.getElementById("next-button");
-
 
 function startGame() {
     nextQuestion()
@@ -21,6 +18,7 @@ function nextQuestion() {
     score =0;
     questionCount = 0;
     questionsLeft = [...questions];
+    anotherQuestion()
 }
 
 function anotherQuestion() {
@@ -30,47 +28,40 @@ function anotherQuestion() {
 
     questionCount++;
     questions.innerText = currentQuestion.questions;
+}
+
+questions.forEach(choice) {
+        if (correctAnswer === true) {
+            console.log(Correct!!!)
+            score++;
+        }
+}
+
 
 var questions = [
     {
-        question1: "What is my name?",
-        choiceA: "Ron",
-        choiceB: "Callan",
-        choiceC: "Todd",
-        choiceD: "Keal",
-        correctAnswer: 2,
+        question1: "Which is not a JavaScript Data type?",
+        choiceA: "Number",
+        choiceB: "String",
+        choiceC: "Boolean",
+        choiceD: "Float",
+        correctAnswer: "Float",
     },
     {
-        question2: "What is my name?",
-        choiceA: "Ron",
-        choiceB: "Callan",
-        choiceC: "Todd",
-        choiceD: "Keal",
-        correctAnswer: 2,
+        question2: "What is === operator?",
+        choiceA: "assign a variable",
+        choiceB: "strict equality",
+        choiceC: "loose equality",
+        choiceD: "Not equal to",
+        correctAnswer: "strict equality",
     },
     {
-        question3: "What is my name?",
-        choiceA: "Ron",
-        choiceB: "Callan",
-        choiceC: "Todd",
-        choiceD: "Keal",
-        correctAnswer: 2,
-    },
-    {
-        question4: "What is my name?",
-        choiceA: "Ron",
-        choiceB: "Callan",
-        choiceC: "Todd",
-        choiceD: "Keal",
-        correctAnswer: 2,
-    },
-    {
-        question5: "What is my name?",
-        choiceA: "Ron",
-        choiceB: "Callan",
-        choiceC: "Todd",
-        choiceD: "Keal",
-        correctAnswer: 2,
+        question3: "Which is not a type of Pop up boxes?",
+        choiceA: "Alert",
+        choiceB: "Inform",
+        choiceC: "Confirm",
+        choiceD: "Prompt",
+        correctAnswer: "Inform",
     },
 ]
 
