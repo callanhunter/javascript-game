@@ -1,5 +1,7 @@
 # javascript-game
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # Description
 
 ### In this JavaScript game, you'll be asked three questions to test your JavaScript knowledge. The quiz consists of fours multiple choices question and gives you the option to save your high score if you want.
@@ -16,4 +18,6 @@
 
 # Languages Used
 
-### HTML, CSS, and JavaScript were used in this project
+- HTML
+- JavaScript
+- CSS
