@@ -21,6 +21,6 @@
     transform: scale(1.2);
 }
 
-.buttons {
-    
+.hide {
+    display: none;
 }

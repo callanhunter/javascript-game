@@ -12,20 +12,29 @@
         <h1>Welcome!</h1>
     </header>
     <main>
-        <header>
+        <div id="instructions">
             <p>Click start to begin the JavaScript quiz</p>
-        </header>
-        <section>
-            <div id="timer">Timer</div>
-            <div id="time-on-time">15</div>
+        </div>
+        <div id="timer">60</div>
+        <div id="question-container" class="hide">
+            <div id="question"></div>
             <div id="choice-a" class="choices">A</div>
             <div id="choice-b" class="choices">B</div>
             <div id="choice-c" class="choices">C</div>
             <div id="choice-d" class="choices">D</div>
-            <button id="high-score" class="buttons">High Score</button>
+ 
+        </div>
+        <div id="submit-section"class="hide">
+            <label>Initials</label>
+            <input id="initials" type="text">
+            <button id="submit">
+                Submit
+            </button>
+        </div>
+        <div>
             <button id="start-button" class="buttons">Start</button>
-            <button id="next-button" class="buttons">Next Question</button>
-        </section>
+            <button id="high-score" class="buttons">High Score</button>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>

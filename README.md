@@ -10,9 +10,9 @@
 
 # Usage
 
-### ![alt text](assets/images/screenshot.png)
+### ![Screenshot of the JavaScript](assets/images/screenshot.png)
 
-###
+### In the screenshot above, you will be presented with the questions that are listed within the var questions on line 41. The questions will also be asked in the order that they are listed.
 
 # Languages Used
 
